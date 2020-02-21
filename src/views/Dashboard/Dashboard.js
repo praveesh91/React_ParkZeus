@@ -26,6 +26,7 @@ import CardList from '../../components/Cards/CardList.js';
 import ChartContainer from '../../components/Charts/ChartContainer/ChartContainer.js';
 import Calendar from '../../components/Calender/Calender.js'
 import ActionList from '../../components/ActionCards/CardList.js'
+import ViewContainer from '../../components/ParkingSpaceOverview/ParkingOverview/ViewContainer.js'
 
 class Dashboard extends Component {
 
@@ -57,6 +58,8 @@ class Dashboard extends Component {
 
           </Row>
           
+          <ViewContainer />
+
           <ActionList />
        
       </div>

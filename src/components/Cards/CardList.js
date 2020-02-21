@@ -10,23 +10,12 @@ class CardList extends Component {
             actions: []
         }
     }
-    // componentDidMount() {
-    //     const url = 'https://jsonplaceholder.typicode.com/users';
-    //     axios.get(url)
-    //         .then(response => response.data.splice(0,4))
-    //         .then((data) => {
-    //         this.setState({ users: data })
-    //         //console.log(this.state.users)
-    //         })
-    //   }
 
     componentDidMount(){
         axios.get("https://praveesh91.github.io/test_json/cardData.json")
             .then(res =>{
                 const data = res.data.cardData.splice(0,4);
-                //console.log(data);
                 this.setState({actions:data})
-                //console.log("this.state.actions",this.state.actions)
             })
     }
 

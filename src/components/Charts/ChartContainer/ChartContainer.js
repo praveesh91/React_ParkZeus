@@ -47,7 +47,7 @@ export class LineChart extends Component {
     }
 
     render() {
-        console.log("ChartType in Line chart: ",this.state.chartType)
+        // console.log("ChartType in Line chart: ",this.state.chartType)
         return (
             <Row>
                 <Col>

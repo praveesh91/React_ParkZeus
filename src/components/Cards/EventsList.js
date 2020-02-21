@@ -5,11 +5,12 @@ import {Row} from 'reactstrap';
 function EventsList(props) {
     const eventsList = props.data.map(event => (
         <Card
+          key={event.number}
           title={event.number}
           location={event.label}
         />
       ));
-    return <Row className="">{eventsList}</Row>;
+    return <Row>{eventsList}</Row>;
 }
 
 export default EventsList

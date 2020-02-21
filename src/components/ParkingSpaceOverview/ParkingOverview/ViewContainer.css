@@ -1,0 +1,12 @@
+.info-container{
+    display: flex;
+}
+.card-custom{
+    border: 1px solid black;
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 15px;
+}
+.rounded{
+    min-height: 32em;
+}

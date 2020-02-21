@@ -23,6 +23,21 @@ export default {
       name: 'Role Management',
       url: '/parking',
       icon: 'fa fa-th',
+    },
+    {
+      name: 'Service Request',
+      url: '/parking',
+      icon: 'fa fa-th',
+    },
+    {
+      name: 'Report',
+      url: '/parking',
+      icon: 'fa fa-th',
+    },
+    {
+      name: 'Payment',
+      url: '/parking',
+      icon: 'fa fa-th',
       children: [
         {
           name: 'Subitem1',
@@ -35,6 +50,11 @@ export default {
           icon: 'icon-puzzle'
         }
       ]
+    },
+    {
+      name: 'Settings',
+      url: '/parking',
+      icon: 'fa fa-th',
     }
   ]
 };
