@@ -90,7 +90,7 @@ render() {
   // console.log(this.state)
   return (
   <div>
-      {showLine && <Line data={this.state.chartData} />}
+      {showLine && <Line data={this.state.chartData}/>}
       {showBar && <Bar data={this.state.chartData}/>}
       {showPie && <Pie data={this.state.chartData}/>}
   </div>
